@@ -9,7 +9,7 @@ Repositório direcionado para os projetos do #100daysofcode
 ### #100daysofcode: 
 |Dia|Estudos|Tempo|
 | -------- | ----------------- | -------- |
-|1|Python|1h30|
+|1|Python: funções, *args, docstring|2h|
 |2|||
 |3|||
 |4|||
