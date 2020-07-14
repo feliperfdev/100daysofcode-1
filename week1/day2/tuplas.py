@@ -1,6 +1,3 @@
-__nome__ = 'Felipe'
-__email__ = 'felipe.engcontrole@gmail.com'
-
 """
 Tuplas (tuple)
 
