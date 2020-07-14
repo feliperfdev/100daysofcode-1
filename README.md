@@ -10,7 +10,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |Dia|Estudos|Tempo|
 | -------- | ----------------- | -------- |
 |1|Python: funções, *args, docstring|2h|
-|2|||
+|2|Python: kwargs, tuplas, biblioteca pandas|2h|
 |3|||
 |4|||
 |5|||
