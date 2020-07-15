@@ -1,6 +1,9 @@
 # 100daysofcode
 Repositório direcionado para os projetos do #100daysofcode
 
+## Etapas do desafio:
+- Início: 13 de julho
+
 ## Objetivos nesse desafio:
 - [ ] Aprender mais sobre a utilização do GitHub
 - [ ] Estudar programação em Python
