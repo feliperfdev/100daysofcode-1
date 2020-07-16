@@ -159,3 +159,90 @@ print('\n')
 
 # Onde/quando utilizamos dicionários?
 
+'''Imagine que você tem um comércio eletrônico, onde temos um carrinho de compras no qual adicionamos...
+produtos nele'''
+
+'''Carrinho de compras:
+
+        Produto 1: 
+            - nome:
+            - quantidade:
+            - preço
+        Produto 2:
+            - nome:
+            - quantidade:
+            - preço
+'''
+
+carrinho = []
+
+produto1 = {'nome': 'XBox One S', 'quantidade': 1, 'preço': 2000}
+produto2 = {'nome': 'Nintendo Switch', 'quantidade': 1, 'preço': 2300}
+
+carrinho.append(produto1)
+carrinho.append(produto2)
+
+print(carrinho)
+
+produto1.clear()
+print(produto1)
+
+print(produto2.values())
+
+produto2.popitem()
+print(produto2)
+
+#=================================================================================================================
+print('\n')
+
+# Copiando dados:
+
+# Forma 1: -> Deep Copy
+
+d = dict(a=1, b=2, c=3)
+print(d)
+
+novo = d.copy()
+
+print(novo)
+
+
+novo['d'] = 4
+
+print(novo)
+
+print('\n')
+# Forma 2: -> Shallow Copy
+
+novo = d
+print(novo)
+
+novo['d'] = 4
+print(novo)
+
+print(d)
+print(novo)
+
+#=================================================================================================================
+print('\n')
+# Forma alternativa e não usual de criação de dicionários:
+
+outro = {}.fromkeys('a', 'b')
+print(outro)
+
+print('\n')
+dicionario = {}.fromkeys(['nome', 'idade', 'altura'], 'desconhecido')
+#Transforma os valores dos elementos na lista (chaves) como 'desconhecido'
+print(type(dicionario))
+print(dicionario)
+
+print('\n')
+
+outro_2 = {}.fromkeys('chave', 'valor')
+print(outro_2) #Para cada letra da palavra chave, ele criou uma chave, todas com o...
+#... valor contidos a string 'valor'
+
+print('\n')
+see = {}.fromkeys(range(0, 8), 'nada')
+print(see)
+#Cria um dicionário em que as chaves vão de 0 a 8, todas com os valores como strings 'nada'
