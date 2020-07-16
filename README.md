@@ -18,7 +18,7 @@ Repositório direcionado para os projetos do #100daysofcode
 | -------- | ----------------- | -------- |
 |1|Python: funções, *args, docstring|2h|
 |2|Python: kwargs, tuplas, biblioteca pandas|2h|
-|3|||
+|3|Python: tuplas, dicionários, análise dados de arquivos csv com Pandas|3h|
 |4|||
 |5|||
 |6|||
