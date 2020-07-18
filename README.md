@@ -20,7 +20,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |2|Python: kwargs, tuplas, biblioteca pandas|2h|
 |3|Python: tuplas, dicionários, análise dados de arquivos csv com Pandas|3h|
 |4|Python: mapas(complemento dicionários), sets, Módulo Collections|1h|
-|5|||
+|5|Python: Módulo Collections(Finalização), List Comprehension, Listas Aninhadas|1h|
 |6|||
 |7|||
 |8|||
