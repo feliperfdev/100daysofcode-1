@@ -21,7 +21,7 @@ num = [1, 2, 3, 4, 5, 6, 7]
 num_quad = {valor: valor**2 for valor in num}
 print(num_quad)
 # Ele pega cada valor da lista e transforma na chave, depois pega esses mesmos valores, eleva ao...
-# ... quadrado e transforma nos valores
+# ... quadrado e transforma nos valores da lista
 
 num1 = [1, 1, 2, 3, 3, 4]
 num1_quad = {valor1: valor1**2 for valor1 in num1}
