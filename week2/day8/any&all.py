@@ -75,6 +75,8 @@ outros_nomes = ['Carlos', 'Marco', 'Vanessa', 'Ana', 'Felipe']
 print(any([nome[0]=='Z' for nome in outros_nomes])) # --> False // Nenhum nome nesse iterável...
 #... começa com 'Z'
 
+print(any([nome[0]=='F' for nome in outros_nomes])) # --> True
+
 print(any([num for num in [4, 2, 3, 10, 8, 6, 9, 11, 12] if num%2==0])) # --> True
 # Por mais que tenhamos elementos ímpares na lista, existem elementos pares, o que já é suficiente...
 #... para validar o True
