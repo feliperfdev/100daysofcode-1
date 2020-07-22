@@ -111,7 +111,6 @@ tamanho_usuarios_comprehension = getsizeof(list(filter(lambda user: len(user['tw
 
 print(f'Sem Generator Expression: {tamanho_usuarios_comprehension} bytes'); print('\n')
 
-
 # Utilizando Generator Expression:
 gen_usuarios = (user for user in usuarios)
 print(list(filter(lambda user: len(user['tweets'])==0, gen_usuarios)))
