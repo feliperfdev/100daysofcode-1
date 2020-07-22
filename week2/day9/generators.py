@@ -83,9 +83,40 @@ from math import sin, cos, tan
 
 numeros = [30, 60, 90, 120, 180, 270]
 
-gen_numeros = (num for num in numeros)
-print(gen_numeros)
-print(getsizeof(gen_numeros)); print('\n')
+num_comprehension = [sin(num) for num in numeros]
+print(num_comprehension)
+print(f'Utilizando list comprehension: {getsizeof(num_comprehension)} bytes'); print('\n')
 
-print(list(map(lambda dado: sin(dado), gen_numeros)))
-print(f'{getsizeof(list(map(lambda dado: sin(dado), gen_numeros)))} bytes')
+gen_numeros = (sin(num) for num in numeros)
+print(list(gen_numeros))
+print(f'Utilizando Generator Expression: {getsizeof(list(gen_numeros))} bytes')
+
+#========================================================================================================
+print('\n')
+
+usuarios = [
+    {'username': 'Felipe', 'tweets': ['Programo em Python', 'Eu gosto de pizza'], 'cor': 'verde', 
+                                                                                        'idade': 18},
+    {'username': 'Eduardo', 'tweets': ['Programo em Javascript'], 'idade': 18},
+    {'username': 'Larissa', 'tweets': [], 'cor': 'amarelo', 'idade': 21},
+    {'username': 'Antônio', 'tweets': [], 'idade': 20},
+    {'username': 'Sarah', 'tweets': ['Programo em Java', 'Eu gosto de coxinha'], 'idade': 19}
+]
+
+# Utilizando List Comprehension:
+usuarios_comprehension = [user for user in usuarios]
+print(list(filter(lambda user: len(user['tweets'])==0, usuarios_comprehension)))
+tamanho_usuarios_comprehension = getsizeof(list(filter(lambda user: len(user['tweets'])==0,
+                                             usuarios_comprehension)))
+
+print(f'Sem Generator Expression: {tamanho_usuarios_comprehension} bytes'); print('\n')
+
+
+# Utilizando Generator Expression:
+gen_usuarios = (user for user in usuarios)
+print(list(filter(lambda user: len(user['tweets'])==0, gen_usuarios)))
+
+tamanho_gen_usuarios = getsizeof(list(filter(lambda user: len(user['tweets'])==0, gen_usuarios)))
+print(f'Com Generator Expression: {tamanho_gen_usuarios} bytes'); print('\n')
+
+#========================================================================================================
