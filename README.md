@@ -24,7 +24,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |6|Python: Dictionary Comprehension, Set Comprehension, Funções lambda|1h|
 |7|Python: Map + Revisão dos assuntos vistos na semana|1h30|
 |8|Python: Funções integradas - Filter, Reduce, Any & All|2h|
-|9|||
+|9|Python: Funções integradas - Generators, Sorted|1h|
 |10|||
 |11|||
 |12|||
