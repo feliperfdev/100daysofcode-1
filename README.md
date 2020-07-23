@@ -25,7 +25,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |7|Python: Map + Revisão dos assuntos vistos na semana|1h30|
 |8|Python: Funções integradas - Filter, Reduce, Any & All|2h|
 |9|Python: Funções integradas - Generators, Sorted|1h|
-|10|||
+|10|Python: Funções integradas (finalização) / Estudo dos erros mais comuns em Python|2h|
 |11|||
 |12|||
 |13|||
