@@ -88,3 +88,12 @@ print(mostraValor(dicionario, 'idade'))
 
 print(mostraValor(dicionario, 'nome'))
 print(mostraValor(dicionario, dicionario))
+
+#========================================================================================================
+
+# Exemplo extra:
+
+try:
+    len(33)
+except TypeError as error:
+    print(f'Argumento informado do tipo errado: {error.__class__}')
