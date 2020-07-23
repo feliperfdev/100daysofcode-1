@@ -25,3 +25,5 @@ OBS: Além do local de análise do debugg, sempre ficar de olho e ir acompanhand
 - Geral
 
 ![](https://github.com/feliper2002/100daysofcode/blob/master/Introdu%C3%A7%C3%A3o%20ao%20Python/week2/day11/debugg/python.png)
+
+![](https://github.com/feliper2002/100daysofcode/blob/master/Introdu%C3%A7%C3%A3o%20ao%20Python/week2/day11/debugg/geral2.png)
