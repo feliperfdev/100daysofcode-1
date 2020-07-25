@@ -27,7 +27,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |9|Python: Funções integradas - Generators, Sorted|1h|
 |10|Python: Funções integradas (finalização) / Estudo dos erros mais comuns em Python|2h|
 |11|Python: Bloco Try/Except/Else/Finally, Métodos de Debugging para tratar erros|2h30|
-|12|||
+|12|Pythn: Módulo Random|1h|
 |13|||
 |14|||
 |15|||
