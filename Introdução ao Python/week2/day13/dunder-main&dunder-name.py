@@ -25,9 +25,10 @@ print('\n')
 
 print(__name__); print('\n') # ---> __main__
 
-from funcao_parametros import senoIteravel
+'''from funcao_parametros import senoIteravel
 print(senoIteravel((500, 600, 700)))
 
 import outra_funcao as of
 
 print(of.qualquerFuncao())
+'''
