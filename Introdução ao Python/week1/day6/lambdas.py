@@ -63,6 +63,7 @@ print('\n')
 # ---> f(x)=a*x**2 + b*x + c
 
 def geraFuncaoQuadratica(a, b, c):
+    "Gera uma função do tipo ax²+bx+c"
     return lambda x: a*x**2 + b*x + c
 
 quadratica = geraFuncaoQuadratica(3, 7, 8) # Atribuindo valores às variáveis a, b e c e guardando numa...
