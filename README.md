@@ -28,7 +28,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |10|Python: Funções integradas (finalização) / Estudo dos erros mais comuns em Python|2h|
 |11|Python: Bloco Try/Except/Else/Finally, Métodos de Debugging para tratar erros|2h30|
 |12|Pythn: Módulo Random|1h|
-|13|||
+|13|Python: Módulos Built-in, Módulos Customizados, Módulos Externos, Pacotes, Dunder Main e Name|2h|
 |14|||
 |15|||
 |16|||
