@@ -5,7 +5,7 @@ Repositório direcionado para os projetos do #100daysofcode
 - Início: 13 de julho
 
 ## Objetivos nesse desafio:
-- [ ] Aprender mais sobre a utilização do GitHub
+- [x] Aprender mais sobre a utilização do GitHub
 - [ ] Estudar programação em Python
 - [ ] Iniciar estudos em Machine Learning
 - [ ] Criar projetos de Machine Learning com Python
