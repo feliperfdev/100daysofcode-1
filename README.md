@@ -5,7 +5,7 @@ Repositório direcionado para os projetos do #100daysofcode
 - Início: 13 de julho
 
 ## Objetivos nesse desafio:
-- [ ] Aprender mais sobre a utilização do GitHub
+- [x] Aprender mais sobre a utilização do GitHub
 - [ ] Estudar programação em Python
 - [ ] Iniciar estudos em Machine Learning
 - [ ] Criar projetos de Machine Learning com Python
@@ -29,7 +29,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |11|Python: Bloco Try/Except/Else/Finally, Métodos de Debugging para tratar erros|2h30|
 |12|Pythn: Módulo Random|1h|
 |13|Python: Módulos Built-in, Módulos Customizados, Módulos Externos, Pacotes, Dunder Main e Name|2h|
-|14|||
+|14|Python: Revisão dos assuntos estudados na semana (map, filter, zip, exceções, debugging, sorted)|1h|
 |15|||
 |16|||
 |17|||
