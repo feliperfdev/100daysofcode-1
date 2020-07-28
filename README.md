@@ -30,7 +30,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |12|Pythn: Módulo Random|1h|
 |13|Python: Módulos Built-in, Módulos Customizados, Módulos Externos, Pacotes, Dunder Main e Name|2h|
 |14|Python: Revisão dos assuntos estudados na semana (map, filter, zip, exceções, debugging, sorted)|1h|
-|15|||
+|15|Python: Leitura e escrita de arquivos, Seek e cursor, comando with. Treino Pandas.|2h|
 |16|||
 |17|||
 |18|||
