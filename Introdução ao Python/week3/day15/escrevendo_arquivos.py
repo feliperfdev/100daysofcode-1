@@ -14,9 +14,22 @@ o anterior será apagado e um novo será criado. Dessa forma, todo o conteúdo d
 '''
 print('\n')
 
+'''
 with open('novo_arquivo.txt', 'w') as arquivo: # o 'w' vem de 'write'
     arquivo.write('Posso escrever qualquer coisa aqui.')
     arquivo.write('\nIsso é apenas um teste')
-    arquivo.write('\nÚltima linha desse teste')
+    arquivo.write('\nÚltima linha desse teste\n')
+    arquivo.write('Python ' * 10)
+'''
 
 # --> Função write() serve para escrever e recebe APENAS strings
+
+
+with open('frutas.txt', 'w') as arquivo:
+    while True:
+        fruta = input('Informe uma fruta ou digite "sair" para fechar.\n')
+        if fruta != 'sair':
+            arquivo.write(fruta)
+            arquivo.write('\n')
+        else:
+            break
