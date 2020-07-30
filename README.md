@@ -32,7 +32,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |14|Python: Revisão dos assuntos estudados na semana (map, filter, zip, exceções, debugging, sorted)|1h|
 |15|Python: Leitura e escrita de arquivos, Seek e cursor, comando with. Treino Pandas.|2h|
 |16|Python: Modos de Arquivos, StringIO, Sistemas de Arquivos, Iteradores e Iteráveis|2h|
-|17|||
+|17|Python: Geradores e Iteradores (testes de memória e velocidade), High Order Functions|1h45|
 |18|||
 |19|||
 |20|||
