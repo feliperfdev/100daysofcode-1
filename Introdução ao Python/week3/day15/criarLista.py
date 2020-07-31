@@ -6,7 +6,7 @@ print(f'--------------------{nome_lista}--------------------')
 
 with open(f'{nome_lista}.txt', 'w') as arquivo:
     arquivo.write(f'--------------------{nome_lista}--------------------\n\n')
-    escolha = ()
+    escolha = () 
 
     try:
         while(escolha != 2):
