@@ -33,7 +33,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |15|Python: Leitura e escrita de arquivos, Seek e cursor, comando with. Treino Pandas.|2h|
 |16|Python: Modos de Arquivos, StringIO, Sistemas de Arquivos, Iteradores e Iteráveis|2h|
 |17|Python: Geradores e Iteradores (testes de memória e velocidade), High Order Functions|1h45|
-|18|||
+|18|Python: Decorators, Metadata com Wraps, Forçando tipos de dados|2h|
 |19|||
 |20|||
 |21|||
