@@ -35,7 +35,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |17|Python: Geradores e Iteradores (testes de memória e velocidade), High Order Functions|1h45|
 |18|Python: Decorators, Metadata com Wraps, Forçando tipos de dados|2h|
 |19|Python: Treino com desafios no URI|5h|
-|20|||
+|20|Python: Orientação a Objetos, Classes + desafios URI|1h30|
 |21|||
 |22|||
 |23|||
