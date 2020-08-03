@@ -36,7 +36,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |18|Python: Decorators, Metadata com Wraps, Forçando tipos de dados|2h|
 |19|Python: Treino com desafios no URI|5h|
 |20|Python: Orientação a Objetos, Classes + desafios URI|1h30|
-|21|||
+|21|Python: Desafio URI|1h30|
 |22|||
 |23|||
 |24|||
