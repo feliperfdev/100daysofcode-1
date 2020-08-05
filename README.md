@@ -38,7 +38,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |20|Python: Orientação a Objetos, Classes + desafios URI|1h30|
 |21|Python: Desafio URI|1h30|
 |22|Python: POO -> Atributos|1h45|
-|23|||
+|23|Python: Métodos + Desafio URI|1h30|
 |24|||
 |25|||
 |26|||
