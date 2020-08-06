@@ -20,6 +20,7 @@ print()
 # >>>>>>>>>> Métodos de instância <<<<<<<<<
 
 # Uma classe pode possuir quantos métodos forem necessários
+# São métodos que são realizados pelo objeto (instância) criado através da classe
 
 class Lampada:
     def __init__(self, cor, voltagem, luminosidade):
@@ -138,8 +139,10 @@ print()
 
 '''
 Em métodos de classe, não se faz acesso aos atributos de instância (que utilizam o self),
-eles fazem acesso à classe. São conhecidos como métodos estáticos em outras linguagens.
+eles fazem acesso à classe.
 '''
+# Deve ser acessado através da classe
+# São métodos que são realizados pela classe
 
 class Usuario:
 
@@ -180,8 +183,8 @@ class Usuario:
 
 
 newUser = Usuario('Felipe', 'Ribeiro', 'felipe02@gmail.com', '123456789');          print()
-Usuario.countUser() # Forma correta
-newUser.countUser() # Possível, porém incorreto
+Usuario.countUser() # Forma correta / Pois está sendo acessado através da classe
+newUser.countUser() # Possível, porém incorreto / Pois está sendo acessado através do objeto
 
 print(newUser._Usuario__geraUsuario()) # Acesso de forma ruim
 
