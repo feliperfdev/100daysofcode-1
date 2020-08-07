@@ -40,7 +40,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |22|Python: POO -> Atributos|1h45|
 |23|Python: Métodos + Desafio URI|1h30|
 |24|Python: Métodos (finalização), Objetos|1h20|
-|25|Python: Revisão de orientação a objetos // Machine Learning (teoria): Introdução, Terminologias, Classificação, Regressão, Tipos de Aprendizagens)|1h40|
+|25|Python: Revisão de orientação a objetos // Machine Learning (teoria): Introdução, Terminologias, Classificação, Regressão, Tipos de Aprendizagens)|2h|
 |26|||
 |27|||
 |28|||
