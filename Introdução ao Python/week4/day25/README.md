@@ -1,0 +1,1 @@
+Dia 25 foi focado em revisões e na Introdução aos conteúdos de [Machine Learning](https://github.com/feliper2002/100daysofcode/tree/master/Machine%20Learning%20Introduction)
