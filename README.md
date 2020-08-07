@@ -6,7 +6,7 @@ Repositório direcionado para os projetos do #100daysofcode
 
 ## Objetivos nesse desafio:
 - [x] Aprender mais sobre a utilização do GitHub
-- [ ] Estudar programação em Python <img src=”https://www.python.org/static/opengraph-icon-200x200.png” height="28" width="28">
+- [ ] Estudar programação em Python
 - [x] Iniciar estudos em Machine Learning
 - [ ] Criar projetos de Machine Learning com Python
 
