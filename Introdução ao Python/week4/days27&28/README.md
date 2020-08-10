@@ -1,0 +1,1 @@
+Dias 27 e 28 foram focados em conteúdos de [Machine Learning](https://github.com/feliper2002/100daysofcode/tree/master/Machine%20Learning%20Introduction)
