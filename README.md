@@ -42,7 +42,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |24|Python: Métodos (finalização), Objetos|1h20|
 |25|Python: Revisão de orientação a objetos // Machine Learning (teoria): Introdução, Terminologias, Classificação, Regressão, Tipos de Aprendizagens)|2h|
 |26|Python: Abstração e Encapsulamento // Machine Learning (prática): Tratamento de valores inconsistentes e valores faltantes, escalonamento de atributos|2h30|
-|27|||
+|27|Machine Learning: Transformação de variáveis categóricas, Avaliação de Algoritmos, Divisão dos atributos da Base de Dados entre treinamento e teste, Aprendizagem Bayesiana (Introdução)|2h30|
 |28|||
 |29|||
 |30|||
