@@ -44,7 +44,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |26|Python: Abstração e Encapsulamento // Machine Learning (prática): Tratamento de valores inconsistentes e valores faltantes, escalonamento de atributos|2h30|
 |27|Machine Learning: Transformação de variáveis categóricas, Avaliação de Algoritmos, Divisão dos atributos da Base de Dados entre treinamento e teste, Aprendizagem Bayesiana (Introdução)|2h30|
 |28|Revisão dos conteúdos de Machine Learning|1h|
-|29|Python: Herança // Machine Learning: Revisão + Treino||
+|29|Python: Herança // Machine Learning: Revisão + Treino|1h30|
 |30|||
 | 31 |  |  |  |
 | 32 |  |  |  |
