@@ -3,6 +3,7 @@ Repositório direcionado para os projetos do #100daysofcode
 
 ## Etapas do desafio:
 - Início: 13 de julho
+- 25%: 6 de agosto
 
 ## Objetivos nesse desafio:
 - [x] Aprender mais sobre a utilização do GitHub
