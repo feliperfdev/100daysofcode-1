@@ -9,6 +9,7 @@ Repositório direcionado para os projetos do #100daysofcode
 - [x] Estudar programação em Python
 - [x] Iniciar estudos em Machine Learning
 - [ ] Criar projetos de Machine Learning com Python
+- [ ] Treinar Python + mini-projetos
 
 ## Projetos em andamento:
 (Breve)
