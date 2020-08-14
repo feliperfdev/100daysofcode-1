@@ -49,7 +49,7 @@ Repositório direcionado para os projetos do #100daysofcode
 |29|Python: Herança // Machine Learning: Revisão + Treino|1h30|
 |30|Machine Learning: Teoria Naive Bayes|1h|
 | 31 |Machine Learning: Teoria + Prática de Naive Bayes // Prática com outros exemplos de base de dados|2h|
-| 32 |  |  |  |
+| 32 |Machine Learning: Mais treinos com o Naive Bayes + Cálculo de precisão + Matriz de confusão|2h|
 | 33 |  |  |  |
 | 34 |  |  |  |
 | 35 |  |  |  |
