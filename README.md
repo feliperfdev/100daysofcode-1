@@ -52,7 +52,7 @@ Repositório direcionado para os projetos do #100daysofcode
 | 32 |Machine Learning: Mais treinos com o Naive Bayes + Cálculo de precisão + Matriz de confusão|2h|
 | 33 |Machine Learning: Estudo da matemática por trás de algoritmos de Machine Learning + Práticas com Naive Bayes|2h|
 | 34 |Machine Learning: Estudos em tratamento de Missing Values em Datasets com Pandas e Sklearn|1h|
-| 35 |  |  |  |
+| 35 |Machine Learning: Prática com algoritmo Naive Bayes|1h|
 | 36 |  |  |  |
 | 37 |  |  |  |
 | 38 |  |  |  |
