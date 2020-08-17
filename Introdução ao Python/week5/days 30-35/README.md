@@ -1,0 +1,1 @@
+Os estudos realizados entre os dias 30 e 35 do desafio foram destinados aos conteúdos de [Machine Learning](https://github.com/feliper2002/100daysofcode/tree/master/Machine%20Learning%20Introduction)
