@@ -12,6 +12,7 @@ class Elevador:
         Elevador.pessoas_inicial = self.quantPessoas
 
     def entra(self, pessoa):
+        "Função que coloca pessoas dentro do elevador."
         try:
             assert(type(pessoa) == int)
         except (TypeError, AssertionError) as error:
@@ -26,6 +27,7 @@ class Elevador:
             Elevador.pessoas_inicial = total
     
     def sai(self, pessoa):
+        "Função que retira pessoas do elevador."
         try:
             assert(type(pessoa) == int)
         except (TypeError, AssertionError) as error:
@@ -39,6 +41,7 @@ class Elevador:
             Elevador.pessoas_inicial = total
     
     def sobe(self, andar):
+        "Função que faz o elevador subir de andar."
         try:
             assert(type(andar) == int)
         except AssertionError:
@@ -60,6 +63,7 @@ class Elevador:
                 Elevador.andar_inicial = novoAndar
 
     def desce(self, andar):
+        "Função que faz o elevador descer de andar."
         try:
             assert(type(andar) == int)
         except AssertionError:
@@ -81,6 +85,10 @@ class Elevador:
                     print(f'O elevador está no {novoAndar}º andar.')
                 Elevador.andar_inicial = novoAndar
         
+    def info(self):
+        "Mostra informações de quantas pessoas tem no elevador e em que andar ele está no momento."
+        print(f'O elevador tem {Elevador.pessoas_inicial} pessoa(s) e está no {Elevador.andar_inicial}º andar!')
+     
 elevador1 = Elevador(10, 0, 1, 15)
 
 elevador1.entra(1)
@@ -88,7 +96,11 @@ elevador1.desce(1)
 elevador1.sobe(1)
 elevador1.sobe(14)
 elevador1.desce(2)
+elevador1.info()
 elevador1.desce(13)
 elevador1.sobe(14)
 elevador1.sobe(1)
 elevador1.sobe(1)
+elevador1.sai(1)
+elevador1.desce(9)
+elevador1.info()
