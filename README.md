@@ -53,8 +53,8 @@ Repositório direcionado para os projetos do #100daysofcode
 | 33 |Machine Learning: Estudo da matemática por trás de algoritmos de Machine Learning + Práticas com Naive Bayes|2h|
 | 34 |Machine Learning: Estudos em tratamento de Missing Values em Datasets com Pandas e Sklearn|1h|
 | 35 |Machine Learning: Prática com algoritmo Naive Bayes|1h|
-| 36 |  |  |  |
-| 37 |  |  |  |
+| 36 |Python: Exercícios + prática com POO // Machine Learning: Estudo de outros Notebooks para entender outras maneiras de tratamento e classificação|2h|
+| 37 |Python: Exercício de POO|1h|
 | 38 |  |  |  |
 | 39 |  |  |  |
 | 40 |  |  |  |
