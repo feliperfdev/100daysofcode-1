@@ -56,7 +56,7 @@ Repositório direcionado para os projetos do #100daysofcode
 | 36 |Python: Exercícios + prática com POO // Machine Learning: Estudo de outros Notebooks para entender outras maneiras de tratamento e classificação|2h|
 | 37 |Python: Exercício de POO|1h|
 | 38 |Python: Utilização do decorator @property em python para manipulação de variáveis privadas ('getters' e 'setters')|1h30|
-| 39 |Python: Refatoração e entendimento da utilização do decorator @property para getters e setters. // Machine Learning: Utilização do Matthews Correlation Coefficient e Avarage Precision Score para cálculo da acurácia de algoritmos de Machine Learning|2h|
+| 39 |Python: Refatoração e entendimento da utilização do decorator @property para getters e setters. + Teste de recursividade com Fatorial e Sequência de Fibonacci // Machine Learning: Utilização do Matthews Correlation Coefficient e Avarage Precision Score para cálculo da acurácia de algoritmos de Machine Learning|2h|
 | 40 |  |  |  |
 | 41 |  |  |  |
 | 42 |  |  |  |
