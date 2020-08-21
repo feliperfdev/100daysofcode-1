@@ -128,25 +128,25 @@ class Conta:
 
     @property # definindo um getter
     def limite(self):
-        return float(self.__limite)
+        return self.__limite
 
     @limite.setter # definindo o setter --> nomeDoGetter.setter
     def limite(self, value):
         if isinstance(value, str):
             value = float(value)
-            self.__limite = value
-        self.__limite = value
+            self.__limite = float(value)
+        self.__limite = float(value)
     
     @property
     def saldo(self):
-        return float(self.__saldo)
+        return self.__saldo
     
     @saldo.setter
     def saldo(self, valor):
         if isinstance(valor, str):
             valor = float(valor)
-            self.__saldo = valor
-        self.__saldo = valor
+            self.__saldo = float(valor)
+        self.__saldo = float(valor)
     
     @property
     def titular(self):
