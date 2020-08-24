@@ -11,6 +11,7 @@ Repositório direcionado para os projetos do #100daysofcode
 - [x] Iniciar estudos em Machine Learning
 - [ ] Criar projetos de Machine Learning com Python
 - [ ] Treinar Python + mini-projetos
+- [ ] Aplicações em Visão Computacional
 
 ## Projetos em andamento:
 (Breve)
