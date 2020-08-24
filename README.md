@@ -58,8 +58,8 @@ Repositório direcionado para os projetos do #100daysofcode
 | 37 |Python: Exercício de POO|1h|
 | 38 |Python: Utilização do decorator @property em python para manipulação de variáveis privadas ('getters' e 'setters')|1h30|
 | 39 |Python: Refatoração e entendimento da utilização do decorator @property para getters e setters. + Teste de recursividade com Fatorial e Sequência de Fibonacci // Machine Learning: Utilização do Matthews Correlation Coefficient e Avarage Precision Score para cálculo da acurácia de algoritmos de Machine Learning|2h|
-| 40 |  |  |  |
-| 41 |  |  |  |
+| 40 |Machine Learning: Estudo das aplicações do XGBClassfier + Estudo de técnicas de exploração mais detalhada de dados |2h|
+| 41 |Machine Learning: Estudo de Notebooks já existentes para aprender técnicas de exploração de dados|1h|
 | 42 |  |  |  |
 | 43 |  |  |  |
 | 44 |  |  |  |
