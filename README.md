@@ -62,7 +62,7 @@ Repositório direcionado para os projetos do #100daysofcode
 | 40 |Machine Learning: Estudo das aplicações do XGBClassfier + Estudo de técnicas de exploração mais detalhada de dados |2h|
 | 41 |Machine Learning: Estudo de Notebooks já existentes para aprender técnicas de exploração de dados|1h|
 | 42 |Machine Learning: Mais estudos voltados para pré-processamento de dados // Computer Vision: Introdução ao OpenCV|2h|
-| 43 |Python: Geração de Wordcloud através da estração de arquivos por Web Scraping e armazenando em um DataFrame|1h|
+| 43 |Python: Geração de Wordcloud através da extração de arquivos por Web Scraping e armazenando em um DataFrame|1h|
 | 44 |Python: Desenvolvimento de um programa que automatiza uma tarefa no computador // Computer Vision: Estudos da parte teórica de Visão Computacional|2h|
 | 45 |Python: Alterações no programa desenvolvido|1h30|
 | 46 |Python: Mais alterações feitas no programa desenvolvido, criando recursos ainda mais eficientes + Revisão de conceitos básicos do Python|2h30|
