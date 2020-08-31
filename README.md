@@ -9,12 +9,15 @@ Repositório direcionado para os projetos do #100daysofcode
 - [x] Aprender mais sobre a utilização do GitHub
 - [x] Estudar programação em Python
 - [x] Iniciar estudos em Machine Learning
+- [x] Iniciar estudos em Visão Computacional
 - [ ] Criar projetos de Machine Learning com Python
 - [ ] Treinar Python + mini-projetos
 - [ ] Aplicações em Visão Computacional
 
 ## Projetos em andamento:
-(Breve)
+- Organizador de contas de perfis em uma pasta
+
+OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introdução ao Python, é pelo fato de ter tido equivalência com alguma outra dentre: Computer Vision Introduction, Machine Learning Introduction ou Exercícios Python.
 
 ### #100daysofcode: 
 |Dia|Estudos|Tempo|
@@ -60,11 +63,11 @@ Repositório direcionado para os projetos do #100daysofcode
 | 39 |Python: Refatoração e entendimento da utilização do decorator @property para getters e setters. + Teste de recursividade com Fatorial e Sequência de Fibonacci // Machine Learning: Utilização do Matthews Correlation Coefficient e Avarage Precision Score para cálculo da acurácia de algoritmos de Machine Learning|2h|
 | 40 |Machine Learning: Estudo das aplicações do XGBClassfier + Estudo de técnicas de exploração mais detalhada de dados |2h|
 | 41 |Machine Learning: Estudo de Notebooks já existentes para aprender técnicas de exploração de dados|1h|
-| 42 |  |  |  |
-| 43 |  |  |  |
-| 44 |  |  |  |
-| 45 |  |  |  |
-| 46 |  |  |  |
+| 42 |Machine Learning: Mais estudos voltados para pré-processamento de dados // Computer Vision: Introdução ao OpenCV|2h|
+| 43 |Python: Geração de Wordcloud através da extração de arquivos por Web Scraping e armazenando em um DataFrame|1h|
+| 44 |Python: Desenvolvimento de um programa que automatiza uma tarefa no computador // Computer Vision: Estudos da parte teórica de Visão Computacional|2h|
+| 45 |Python: Alterações no programa desenvolvido|1h30|
+| 46 |Python: Mais alterações feitas no programa desenvolvido, criando recursos ainda mais eficientes + Revisão de conceitos básicos do Python|2h30|
 | 47 |  |  |  |
 | 48 |  |  |  |
 | 49 |  |  |  |
