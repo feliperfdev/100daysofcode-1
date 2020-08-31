@@ -15,7 +15,7 @@ Repositório direcionado para os projetos do #100daysofcode
 - [ ] Aplicações em Visão Computacional
 
 ## Projetos em andamento:
-- Organizador de contas de perfis em uma pasta
+- [Organizador de contas de perfis em uma pasta](https://github.com/feliper2002/100daysofcode/blob/master/Introdução%20ao%20Python/week7/day47/acessar_contas.py)
 
 OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introdução ao Python, é pelo fato de ter tido equivalência com alguma outra dentre: Computer Vision Introduction, Machine Learning Introduction ou Exercícios Python.
 
