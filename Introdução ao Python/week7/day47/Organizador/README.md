@@ -13,13 +13,13 @@ OBS: Dentro do código tem a explicação de como foi feito o sistema para poder
 ## Screenshots
 
 <p align="center">
-  <img src="Introdução ao Python\week7\day47\Organizador\inicio.png" width="400" title="Início">
+  <img src="https://github.com/feliper2002/100daysofcode/blob/master/Introdu%C3%A7%C3%A3o%20ao%20Python/week7/day47/imgs/inicio.png" width="400" title="Início">
 
 <p align="center">
-  <img src="Introdução ao Python\week7\day47\Organizador\criarConta.png" width="400" title="Criar Conta">
+  <img src="https://github.com/feliper2002/100daysofcode/blob/master/Introdu%C3%A7%C3%A3o%20ao%20Python/week7/day47/imgs/criarConta.png" width="400" title="Criar Conta">
 
 <p align="center">
-  <img src="Introdução ao Python\week7\day47\Organizador\informe.png" width="400" title="Informe">
+  <img src="https://github.com/feliper2002/100daysofcode/blob/master/Introdu%C3%A7%C3%A3o%20ao%20Python/week7/day47/imgs/informe.png" width="600" title="Informe">
 
 <p align="center">
-  <img src="Introdução ao Python\week7\day47\Organizador\funcao_listarContas.png" width="400" title="Função listarContas">
+  <img src="https://github.com/feliper2002/100daysofcode/blob/master/Introdu%C3%A7%C3%A3o%20ao%20Python/week7/day47/imgs/funcao_listarContas.png" width="700" title="Função listarContas">
