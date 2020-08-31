@@ -2,7 +2,7 @@ from time import sleep
 import shutil
 import os
 
-pasta_contas = 'sua pasta aqui' # caminho do deretório
+pasta_contas = 'informe sua pasta aqui' # caminho do deretório
 # atentar para o uso correto do '/'
 escolha = ()
 
@@ -23,6 +23,7 @@ def listarContas(diretorio):
 Basicamente, essa função utiliza de uma lista criada no escopo global para poder
 armazenar o nome de todos os arquivos do diretório dentro dela. Com isso, o nome de cada arquivo poderá ser acessado através do
 índice, esse índice representará o ID informado na variável 'index' criada no loop for.
+Quando o ID é fornecido, o índice de mesmo valor é acessado dentro da lista, retornando o nome do arquivo correspondente.
 '''
 
 def remove(caminho, arquivo): # Ainda não está funcionando
@@ -50,6 +51,8 @@ try:
                 arquivo.write(f'Email: {email}\n')
                 senha = str(input('Senha: '))
                 arquivo.write(f'Senha: {senha}\n')
+
+                print(f'\nConta: {nome_conta} criada com sucesso!\n')
                 print('----------------------------------------')
             shutil.move('{}/{}.txt'.format(os.getcwd(), nome_conta), '{}{}.txt'.format(pasta_contas, nome_conta))
             # shutil.move() -> pega o diretório atual com o nome do arquivo txt que foi criado e move para a pasta de contas, gerando o txt lá com o mesmo nome
