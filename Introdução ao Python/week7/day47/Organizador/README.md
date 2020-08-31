@@ -4,7 +4,7 @@
 
 Meu nome é Felipe Ribeiro e atualmente curso o 2º semestre em Engenharia de Controle e Automação no Centro Universitário SENAI Cimatec.
 
-No último semestre me apaixonei por programação, Machine Learning e Visão Computacional. Desde então, venho estudando por fora esses conteúdos e registrando meu aprendizado aqui no GitHub e Instagram. Inclusive, esse projeto está sendo submetido no repositório do challenge que estou participando: o #[100daysofce](https://github.com/feliper2002/100daysofcode)
+No último semestre me apaixonei por programação, Machine Learning e Visão Computacional. Desde então, venho estudando por fora esses conteúdos e registrando meu aprendizado aqui no GitHub. Inclusive, esse projeto está sendo submetido no repositório do challenge que estou participando: o #[100daysofcode](https://github.com/feliper2002/100daysofcode)
 
 Espero que gostem :D
 
