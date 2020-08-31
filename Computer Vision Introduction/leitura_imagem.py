@@ -9,8 +9,9 @@ imagem = cv2.imread('Computer Vision Introduction/imagem2.jpg', 0)
 Passando como segundo argumento o '0', colocamos a imagem em escala de cinza
 '''
 
-altura = imagem.shape[0]
-largura = imagem.shape[1]
+print(imagem.shape) # ---> (2552, 3840, 3)
+altura = imagem.shape[0] # pega o valor da altura
+largura = imagem.shape[1] # pega o valor da largura
 
 porcentagem = 20
 nova_altura = int(altura*porcentagem/100)
