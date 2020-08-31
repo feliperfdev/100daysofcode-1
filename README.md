@@ -17,6 +17,8 @@ Repositório direcionado para os projetos do #100daysofcode
 ## Projetos em andamento:
 (Breve)
 
+OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introdução ao Python, é pelo fato de ter tido equivalência com alguma outra dentre: Computer Vision Introduction, Machine Learning Introduction ou Exercícios Python.
+
 ### #100daysofcode: 
 |Dia|Estudos|Tempo|
 | -------- | ----------------- | -------- |
