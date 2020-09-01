@@ -27,7 +27,7 @@ Quando o ID é fornecido, o índice de mesmo valor é acessado dentro da lista, 
 '''
 
 def remove(caminho, arquivo): # Ainda não está funcionando
-    caminhoFinal = r'{}{}'.format(caminho, arquivo)
+    caminhoFinal = os.path.join(caminho, arquivo)
     if os.path.isfile(caminhoFinal): # verifica se o arquivo existe
         os.remove(caminhoFinal)
         raise PermissionError('\nVocê não tem permissão para remover esse arquivo.')
@@ -54,14 +54,14 @@ try:
 
                 print(f'\nConta: {nome_conta} criada com sucesso!\n')
                 print('----------------------------------------')
-            shutil.move('{}/{}.txt'.format(os.getcwd(), nome_conta), '{}{}.txt'.format(pasta_contas, nome_conta))
+            shutil.move('{}.txt'.format(os.path.join(os.getcwd(), nome_conta)), '{}.txt'.format(os.path.join(pasta_contas, nome_conta)))
             # shutil.move() -> pega o diretório atual com o nome do arquivo txt que foi criado e move para a pasta de contas, gerando o txt lá com o mesmo nome
 
         if (escolha == 3):
             # esse for vai fazer uma listagem de todos os arquivos contidos na pasta de contas (que serão listados por meio do os.listdir())
             listarContas(pasta_contas)
             inform = int(input('\nDeseja acessar alguma dessas contas? Informe o ID: (Para sair, digite -1) '))
-            abrir = open('{}{}'.format(pasta_contas, lista[inform]), 'r')
+            abrir = open(os.path.join(pasta_contas, lista[inform]), 'r')
             # o número informado na variável 'inform' vai direcionar para o índice desejado (que está relacionado ao ID) dentro da lista...
             # O índice 0 da lista corresponde ao ID 0, o índice 1 ao ID 1, e por aí vai. O objetivo é acessar o nome através do ID informado 
             # para que ele seja retornado na variável lista[inform], jogando na função open() e permitindo o acesso ao arquivo desejado
