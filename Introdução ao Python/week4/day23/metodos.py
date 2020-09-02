@@ -193,6 +193,8 @@ print()
 
 # >>>>>>>>>> Métodos Estáticos <<<<<<<<<
 
+# Não recebem argumentos de instância ou de classe
+
 # Utiliza um outro decorador ---> @staticmethod
 
 class Usuario:
