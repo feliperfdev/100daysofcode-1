@@ -69,8 +69,8 @@ OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introduçã
 | 44 |Python: Desenvolvimento de um programa que automatiza uma tarefa no computador // Computer Vision: Estudos da parte teórica de Visão Computacional|2h|
 | 45 |Python: Alterações no programa desenvolvido|1h30|
 | 46 |Python: Mais alterações feitas no programa desenvolvido, criando recursos ainda mais eficientes + Revisão de conceitos básicos do Python|2h30|
-| 47 |  |  |  |
-| 48 |  |  |  |
+| 47 |Python: Ajustes no projeto 'Organizador' + aprofundamento na biblioteca 'os'|1h|
+| 48 |Python: Treinamento em Orientação a Objetos com Python // Machine Learning: Entendendo o funcionamento do deploy de um modelo de ML|2h|
 | 49 |  |  |  |
 | 50 |  |  |  |
 | 51 |  |  |  |
