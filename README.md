@@ -74,8 +74,8 @@ OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introduçã
 | 48 |Python: Treinamento em Orientação a Objetos com Python // Machine Learning: Entendendo o funcionamento do deploy de um modelo de ML|2h|
 | 49 |Python: Revisão de funções Lambda|1h|
 | 50 |Computer Vision: Estudo do histograma de cores + plotagem de figuras + estudo de técnicas de blur + revisão|3h30|
-| 51 |  |  |
-| 52 |  |  |  |
+| 51 |Computer Vision: Revisão de reconhecimento facial, haarscascade, criação de dataset para reconhecimento facial|1h30|
+| 52 |   |    |
 | 53 |  |  |  |
 | 54 |  |  |  |
 | 55 |  |  |  |
