@@ -5,6 +5,7 @@ Repositório direcionado para os projetos do #100daysofcode
 - Início: 13 de julho
 - 25%: 6 de agosto
 - Início do projeto 'Organizador': 28 de julho
+- 50%: 6 de setembro
 
 ## Objetivos nesse desafio:
 - [x] Aprender mais sobre a utilização do GitHub
@@ -71,10 +72,10 @@ OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introduçã
 | 46 |Python: Mais alterações feitas no programa desenvolvido, criando recursos ainda mais eficientes + Revisão de conceitos básicos do Python|2h30|
 | 47 |Python: Ajustes no projeto 'Organizador' + aprofundamento na biblioteca 'os'|1h|
 | 48 |Python: Treinamento em Orientação a Objetos com Python // Machine Learning: Entendendo o funcionamento do deploy de um modelo de ML|2h|
-| 49 |  |  |  |
-| 50 |  |  |  |
-| 51 |  |  |  |
-| 52 |  |  |  |
+| 49 |Python: Revisão de funções Lambda|1h|
+| 50 |Computer Vision: Estudo do histograma de cores + plotagem de figuras + estudo de técnicas de blur + revisão|3h30|
+| 51 |Computer Vision: Revisão de reconhecimento facial, haarscascade, criação de dataset para reconhecimento facial|1h30|
+| 52 |   |    |
 | 53 |  |  |  |
 | 54 |  |  |  |
 | 55 |  |  |  |
