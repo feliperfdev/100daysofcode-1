@@ -16,7 +16,7 @@ Repositório direcionado para os projetos do #100daysofcode
 - [ ] Treinar Python + mini-projetos
 - [ ] Aplicações em Visão Computacional
 
-## Projetos em andamento:
+## Projetos:
 - [Organizador de contas de perfis em uma pasta](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week7/day47/Organizador)
 
 OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introdução ao Python, é pelo fato de ter tido equivalência com alguma outra dentre: Computer Vision Introduction, Machine Learning Introduction ou Exercícios Python.
@@ -75,7 +75,7 @@ OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introduçã
 | 49 |Python: Revisão de funções Lambda|1h|
 | 50 |Computer Vision: Estudo do histograma de cores + plotagem de figuras + estudo de técnicas de blur + revisão|3h30|
 | 51 |Computer Vision: Revisão de reconhecimento facial, haarscascade, criação de dataset para reconhecimento facial|1h30|
-| 52 |   |    |
+| 52 |Python: Revisão de conceitos de POO fazendo um projetinho simples|2h|
 | 53 |  |  |  |
 | 54 |  |  |  |
 | 55 |  |  |  |
