@@ -13,13 +13,16 @@ Repositório direcionado para os projetos do #100daysofcode
 - [x] Iniciar estudos em Machine Learning
 - [x] Iniciar estudos em Visão Computacional
 - [ ] Criar projetos de Machine Learning com Python
-- [ ] Treinar Python + mini-projetos
+- [x] Treinar Python + mini-projetos
 - [ ] Aplicações em Visão Computacional
 
 ## Projetos:
 - [Organizador de contas de perfis em uma pasta](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week7/day47/Organizador)
 
 OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introdução ao Python, é pelo fato de ter tido equivalência com alguma outra dentre: Computer Vision Introduction, Machine Learning Introduction ou Exercícios Python.
+
+## Mini Projetos:
+- [ATM](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week8/day52)
 
 ### #100daysofcode: 
 |Dia|Estudos|Tempo|
@@ -76,7 +79,7 @@ OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introduçã
 | 50 |Computer Vision: Estudo do histograma de cores + plotagem de figuras + estudo de técnicas de blur + revisão|3h30|
 | 51 |Computer Vision: Revisão de reconhecimento facial, haarscascade, criação de dataset para reconhecimento facial|1h30|
 | 52 |Python: Revisão de conceitos de POO fazendo um projetinho simples|2h|
-| 53 |  |  |  |
+| 53 |Python: Continuação do Mini projeto utilizando o que foi aprendido com POO|2h|
 | 54 |  |  |  |
 | 55 |  |  |  |
 | 56 |  |  |  |
