@@ -124,7 +124,7 @@ def menu(user, options):
 
 def inicia():
     cadastro = ()
-    while cadastro != 'NÃO' or cadastro != 'não' or cadastro != 'Não':
+    while 1: # while True
         cadastro = input('Deseja se cadastrar [SIM] [NÃO] ? ')
         if cadastro == 'SIM' or cadastro == 'sim' or cadastro == 'Sim':
             nome, sobrenome = input('Nome completo: ').split()
