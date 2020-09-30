@@ -5,6 +5,7 @@ class Banking:
     contador = 0
     guarda_contas = []
     conta = {}
+    arquivo = open('historico.txt', 'w+')
 
     @classmethod # Decorator
     def countUser(cls): # cls --> índica a classe -> necessita do decorator @classmethod
@@ -37,6 +38,9 @@ class Banking:
         Banking.contador += 1
         self.__id = Banking.contador
 
+    @classmethod
+    def hist(cls):
+        Banking.arquivo.write('-=-=-=-=-=-=-=- HISTORICO -=-=-=-=-=-=-=-\n')
 
     def apresentaPessoa(self):
         """Apresentação do usuário"""
@@ -80,6 +84,7 @@ class Banking:
                         Banking.conta['saldo'] -= saque
                         self.carteira += saque
                         print('Saque realizado com sucesso! Saldo atual: R${}'.format(Banking.conta['saldo']))
+                        Banking.arquivo.write('Sacou: R${} --------- Saldo: R${}\n'.format(saque, Banking.conta['saldo']))
                         Banking.statusConta(self)
                     else:
                         print('O valor informado é superior ao valor disponível em conta ;-; ')
@@ -102,6 +107,7 @@ class Banking:
                         self.carteira -= depositarV
                         Banking.conta['saldo'] += depositarV
                         print('Depósito realizado com sucesso!\nSaldo atual: {}\nValor em carteira: {}'.format(Banking.conta['saldo'], self.carteira))
+                        Banking.arquivo.write('Depositou: R${} --------- Saldo: R${}\n'.format(depositarV, Banking.conta['saldo']))
                         Banking.statusConta(self)
                     else:
                         print('O valor informado é superior ao valor disponível na sua carteira.')
@@ -118,6 +124,9 @@ def menu(user, options):
         user.apagarConta()
         inicia()
     if options == 4:
+        print(Banking.arquivo.read())
+    if options == 5:
+        Banking.arquivo.write('-=-=-=-=-=-=-=--=-=-=-=-=-=-=--=-=-=-=-=-=-=-')
         print('Saindo...')
         sleep(0.5)
         exit(1)
@@ -126,18 +135,20 @@ def inicia():
     cadastro = ()
     while 1: # while True
         cadastro = input('Deseja se cadastrar [SIM] [NÃO] ? ')
-        if cadastro == 'SIM' or cadastro == 'sim' or cadastro == 'Sim':
+        if cadastro == 'SIM' or cadastro == 'sim' or cadastro == 'Sim' or cadastro == 's' or cadastro == 'S':
             nome, sobrenome = input('Nome completo: ').split()
             carteira = float(input('Valor em carteira: '))
+            Banking.arquivo.write('User: {} {}\n\n'.format(nome, sobrenome))
             user = Banking(nome, sobrenome, carteira)
             user.apresentaPessoa()
             user.cadastrar()
+            Banking.hist()
             break
-        elif cadastro == 'NÃO' or cadastro == 'não':
+        elif cadastro == 'NÃO' or cadastro == 'não' or cadastro == 'Não' or cadastro == 'n' or cadastro == 'N':
             exit(1)
     options = ()
-    while options != 4:
-        options = int(input('O que deseja fazer?\n[1] - Sacar\n[2] - Depositar\n[3] - Apagar conta\n[4] - Sair\n'))
+    while options != 5:
+        options = int(input('O que deseja fazer?\n[1] - Sacar\n[2] - Depositar\n[3] - Apagar conta\n[4] - Ver histórico (não funciona)\n[5] - Sair\n'))
         menu(user, options)
 
 if __name__ == '__main__':
