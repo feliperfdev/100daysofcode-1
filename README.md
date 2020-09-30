@@ -22,7 +22,8 @@ Repositório direcionado para os projetos do #100daysofcode
 OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introdução ao Python, é pelo fato de ter tido equivalência com alguma outra dentre: Computer Vision Introduction, Machine Learning Introduction ou Exercícios Python.
 
 ## Mini Projetos:
-- [ATM](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week8/day52)
+- [ATM](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week8/day52/ATM)
+- [Histórico de Leitura](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week9/day%2054)
 
 ### #100daysofcode: 
 |Dia|Estudos|Tempo|
@@ -80,8 +81,8 @@ OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introduçã
 | 51 |Computer Vision: Revisão de reconhecimento facial, haarscascade, criação de dataset para reconhecimento facial|1h30|
 | 52 |Python: Revisão de conceitos de POO fazendo um projetinho simples|2h|
 | 53 |Python: Continuação do Mini projeto utilizando o que foi aprendido com POO|2h|
-| 54 |  |  |  |
-| 55 |  |  |  |
+| 54 |Python: Início de um novo Mini projeto utilizando POO|2h|
+| 55 |Python: Continuação do Mini projeto de Histórico de Leitura utilizando POO|2h|
 | 56 |  |  |  |
 | 57 |  |  |  |
 | 58 |  |  |  |
