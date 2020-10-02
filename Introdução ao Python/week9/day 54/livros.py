@@ -1,3 +1,6 @@
+from time import sleep
+from math import *
+
 class Livro:
 
     idLivro = 0
@@ -6,47 +9,60 @@ class Livro:
     livros = {}
     listaLivros = []
 
+    infoTec = {}.fromkeys(['Ano', 'Autor(a)', 'Edição'], 'desconhecido')
+
     def __init__(self):
         self.id = Livro.idLivro + 1
+        self.comentario = ''
         Livro.idLivro = self.id
-        Livro.livros['nome'] = str(input('Título do livro: '))
-        Livro.livros['paginas'] = int(input('Total de páginas: '))
-        print('Livro {} registrado com sucesso! ID: {}'.format(Livro.livros['nome'], Livro.idLivro))
-        Livro.listaLivros.append(Livro.livros)
+        Livro.registraLivro()
+
+    def registraLivro(self):
+        self.idLivro = self.id
+        self.livros['nome'] = str(input('Título do livro: '))
+        self.livros['paginas'] = int(input('Total de páginas: '))
+        print('Livro {} registrado com sucesso! ID: {}'.format(self.livros['nome'], self.idLivro))
+        self.listaLivros.append(self.livros)
 
     def registrarLeitura(self):
         livro = str(input('Nome do livro que deseja registrar uma leitura: '))
-        if livro == Livro.livros['nome']:
+        if livro == self.livros['nome']:
             for book in self.listaLivros:
-                    self.paginaAtual = int(input('Registre a página atual da sua leitura: '))
-                    self.paginasRestantes = Livro.livros['paginas'] - self.paginaAtual
-                    print('Leitura do livro {} registrada com sucesso!'.format(Livro.livros['nome']))
-                    self.porcentagemLeitura()
+                self.paginaAtual = int(input('Registre a página atual da sua leitura: '))
+                self.paginasRestantes = self.livros['paginas'] - self.paginaAtual
+                print('Leitura do livro {} registrada com sucesso!'.format(self.livros['nome']))
+                self.__porcentagemLeitura()
         else:
             print('Você não tem esse livro cadastrado ;-;')
     
-    def loadBar(self, value):
+    def __loadBar(self, value):
         for i in range(0, 1):
             print('[', end='')
             for j in range(0, round(value)):
                 print('|', end='')
             print('] {:.2f}%'.format(value))
 
-    def porcentagemLeitura(self):
-        valor = 100 - (self.paginasRestantes/self.paginas)*100
+    def __porcentagemLeitura(self):
+        valor = 100 - (self.paginasRestantes/self.livros['paginas'])*100
         if valor < 0:
             print('Impossível ler uma quantidade negativa de páginas ;-;')
         elif valor == 0:
             print('Você ainda não leu nada do livro ;-;')
-            self.loadBar(valor)
+            self.__loadBar(valor)
         elif valor < 100:
-            print('Você já leu {:.2f}% do livro {}'.format(valor, self.nome))
-            self.loadBar(valor)
+            print('Você já leu {:.2f}% do livro {}'.format(valor, self.livros['nome']))
+            self.__loadBar(valor)
         elif valor == 100:
-            print('Parabéns!! Você leu {:.2f}% do livro {}'.format(valor, self.nome))
-            self.loadBar(valor)
+            print('Parabéns!! Você leu {:.2f}% do livro {}'.format(valor, self.livros['nome']))
+            self.__loadBar(valor)
         elif valor > 100:
             print('Impossível você ler mais páginas que o total existente nesse livro ;-;')
+        
+    def __porcentagemApenas(self):
+        valor = 100 - (self.paginasRestantes/self.livros['paginas'])*100
+        if self.paginaAtual == 0:
+            valor = 0
+        return valor
         
 
     def addComentarioLivro(self):
@@ -60,12 +76,12 @@ class Livro:
     
     def mostraDadosLivros(self):
         livro = str(input('Informe o livro que deseja visualizar os dados: '))
-        if livro == Livro.livros['nome']:
+        if livro == self.livros['nome']:
             print('================================================')
-            print('ID: {}'.format(Livro.idLivro))
-            print('Título: {}'.format(self.nome))
-            print('Páginas lidas: {} ({:.2f}%)'.format(self.paginaAtual, (100 - (self.paginasRestantes/self.paginas)*100)))
-            print('Comentário/Resenha:\n{}'.format(self.comentario))
+            print('ID: {}'.format(self.idLivro))
+            print('Título: {}'.format(self.livros['nome']))
+            print('Páginas lidas: {} ({:.2f}%)'.format(self.paginaAtual, self.__porcentagemApenas()))
+            print('Comentário/Resenha:\n"{}"'.format(self.comentario))
             print('================================================\n')
 
 def acoes(l):
@@ -82,17 +98,19 @@ def acoes(l):
         if action == 4:
             exit(1)
 
-def menu():
+def menu():    
+    respotaPos = ['sim', 'SIM', 's', 'S', 'Sim']
+    respostaNeg = ['nao', 'não', 'n', 'N', 'Nao', 'Não']   
     while 1:
         registro = str(input('Deseja registrar algum livro? '))
-        if registro == 'sim' or registro == 'SIM' or registro == 's' or registro == 'S' or registro == 'Sim':
-            cadastro = int(input('\nDeseja cadastrar quantos livros? '))
-            for i in range(1, cadastro+1):
-                livro = Livro()
-        elif registro == 'nao' or registro == 'não' or registro == 'n' or registro == 'N' or registro == 'NAO' or registro == 'Não' or registro == 'NÃO':
+        if registro in respotaPos:
+            livro = Livro()
+        elif registro in respostaNeg:
             exit(1)
         acoes(livro)
 
-
 if __name__ == '__main__':
-    menu()
+    try:
+        menu()
+    except Exception:
+        exit(1)

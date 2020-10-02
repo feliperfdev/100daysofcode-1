@@ -135,7 +135,9 @@ def inicia():
     cadastro = ()
     while 1: # while True
         cadastro = input('Deseja se cadastrar [SIM] [NÃO] ? ')
-        if cadastro == 'SIM' or cadastro == 'sim' or cadastro == 'Sim' or cadastro == 's' or cadastro == 'S':
+        respotaPos = ['sim', 'SIM', 's', 'S', 'Sim']
+        respostaNeg = ['nao', 'não', 'n', 'N', 'Nao', 'Não']
+        if cadastro in respotaPos:
             nome, sobrenome = input('Nome completo: ').split()
             carteira = float(input('Valor em carteira: '))
             Banking.arquivo.write('User: {} {}\n\n'.format(nome, sobrenome))
@@ -144,7 +146,7 @@ def inicia():
             user.cadastrar()
             Banking.hist()
             break
-        elif cadastro == 'NÃO' or cadastro == 'não' or cadastro == 'Não' or cadastro == 'n' or cadastro == 'N':
+        elif cadastro in respostaNeg:
             exit(1)
     options = ()
     while options != 5:
