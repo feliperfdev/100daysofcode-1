@@ -83,8 +83,8 @@ OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introduçã
 | 53 |Python: Continuação do Mini projeto utilizando o que foi aprendido com POO|2h|
 | 54 |Python: Início de um novo Mini projeto utilizando POO|2h|
 | 55 |Python: Continuação do Mini projeto de Histórico de Leitura utilizando POO|2h|
-| 56 |  |  |  |
-| 57 |  |  |  |
+| 56 |Python: Modificações no Mini projeto de Histórico de Leitura + Revisão nos conteúdos de Decorators e High Order Functions|2h30|
+| 57 |Python: Revisão de Reduce + Modificações no Mini projeto|1h30|
 | 58 |  |  |  |
 | 59 |  |  |  |
 | 60 |  |  |  |
