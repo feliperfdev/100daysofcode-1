@@ -20,7 +20,7 @@ Repositório direcionado para os projetos do #100daysofcode (1ª edição deste 
 
 ## Tecnologias, linguagens e plataformas:
  <p align="left">
-  <img src="https://lh3.googleusercontent.com/proxy/P_zb3AEgXiuGnIrq_kZ8kXTYvp4V-iOgelhxBu0j5vjjr1DCK9Z8nN9OdDDZ3hmjb-anCcZWu70leJwEBHSbH0QLxPMoWo5Iraionl_RP277TtbHBHo" width="70" title="Python"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" width="70" title="Jupyter"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" width="70" title="OpenCV"> <img src="https://i.pinimg.com/originals/99/f8/87/99f887833c475448723d3c9ac16c179b.png" width="70" title="C++">
+  <img src="https://lh3.googleusercontent.com/proxy/P_zb3AEgXiuGnIrq_kZ8kXTYvp4V-iOgelhxBu0j5vjjr1DCK9Z8nN9OdDDZ3hmjb-anCcZWu70leJwEBHSbH0QLxPMoWo5Iraionl_RP277TtbHBHo" width="70" title="Python"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" width="70" title="Jupyter"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" width="70" title="OpenCV"> <img src="https://i.pinimg.com/originals/99/f8/87/99f887833c475448723d3c9ac16c179b.png" width="70" title="C++"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" width="140" title="Sklearn">
 
 ## Projetos:
 - [Organizador de contas de perfis em uma pasta](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week7/day47/Organizador)
