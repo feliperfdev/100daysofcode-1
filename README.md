@@ -6,6 +6,7 @@ Repositório direcionado para os projetos do #100daysofcode
 - 25%: 6 de agosto
 - Início do projeto 'Organizador': 28 de julho
 - 50%: 6 de setembro
+- Início do mini projeto 'Histórico de Leitura': 29 de setembro
 
 ## Objetivos nesse desafio:
 - [x] Aprender mais sobre a utilização do GitHub
@@ -15,6 +16,11 @@ Repositório direcionado para os projetos do #100daysofcode
 - [ ] Criar projetos de Machine Learning com Python
 - [x] Treinar Python + mini-projetos
 - [ ] Aplicações em Visão Computacional
+- [ ] Aumentar o conhecimento na línguagem C++ alinhado aos estudos da faculdade
+
+## Tecnologias, linguagens e plataformas:
+ <p align="left">
+  <img src="https://lh3.googleusercontent.com/proxy/P_zb3AEgXiuGnIrq_kZ8kXTYvp4V-iOgelhxBu0j5vjjr1DCK9Z8nN9OdDDZ3hmjb-anCcZWu70leJwEBHSbH0QLxPMoWo5Iraionl_RP277TtbHBHo" width="70" title="Python"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" width="70" title="Jupyter"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" width="70" title="OpenCV"> <img src="https://i.pinimg.com/originals/99/f8/87/99f887833c475448723d3c9ac16c179b.png" width="70" title="C++">
 
 ## Projetos:
 - [Organizador de contas de perfis em uma pasta](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week7/day47/Organizador)
@@ -24,6 +30,12 @@ OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introduçã
 ## Mini Projetos:
 - [ATM](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week8/day52/ATM)
 - [Histórico de Leitura](https://github.com/feliper2002/100daysofcode/tree/master/Introdução%20ao%20Python/week9/day%2054)
+
+## Visão Computacional:
+Projetos de Visão Computacional se encontram no repositório da [Mentoria Vision](https://github.com/feliper2002/Mentoria-Vision)
+
+## C++ :
+Projetos e atividades utilizando C++ estão presentes no repositório de [Atividades da Faculdade](https://github.com/feliper2002/C-Cpp-faculdade)
 
 ### #100daysofcode: 
 |Dia|Estudos|Tempo|
@@ -79,15 +91,15 @@ OBS: Se alguma pasta de 'dia x' não aparecer contabilizado na pasta Introduçã
 | 49 |Python: Revisão de funções Lambda|1h|
 | 50 |Computer Vision: Estudo do histograma de cores + plotagem de figuras + estudo de técnicas de blur + revisão|3h30|
 | 51 |Computer Vision: Revisão de reconhecimento facial, haarscascade, criação de dataset para reconhecimento facial|1h30|
-| 52 |Python: Revisão de conceitos de POO fazendo um projetinho simples|2h|
+| 52 |Python: Revisão de conceitos de POO fazendo um projetinho simples // C++: Continuação dos estudos de Structs com Listas, Filas e Pilhas|2h|
 | 53 |Python: Continuação do Mini projeto utilizando o que foi aprendido com POO|2h|
 | 54 |Python: Início de um novo Mini projeto utilizando POO|2h|
 | 55 |Python: Continuação do Mini projeto de Histórico de Leitura utilizando POO|2h|
 | 56 |Python: Modificações no Mini projeto de Histórico de Leitura + Revisão nos conteúdos de Decorators e High Order Functions|2h30|
 | 57 |Python: Revisão de Reduce + Modificações no Mini projeto|1h30|
-| 58 |  |  |  |
-| 59 |  |  |  |
-| 60 |  |  |  |
+| 58 |C++: Início dos estudos em Listas Dinâmicas Utilizando Structs|2h|
+| 59 |C++: Implementação de novas funções em Listas Dinâmicas|1h30|
+| 60 |C++: Estudo da biblioteca Vector + Exercício no URI|2h|
 | 61 |  |  |  |
 | 62 |  |  |  |
 | 63 |  |  |  |
