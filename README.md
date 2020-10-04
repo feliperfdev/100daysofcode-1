@@ -140,3 +140,10 @@ Projetos e atividades utilizando C++ estão presentes no repositório de [Ativid
 | 98 |  |  |  |
 | 99 |  |  |  |
 | 100 |  |  |  |
+
+## Spoilers:
+Pretenções para a 2ª edição do #100daysofcode:
+
+<img src="https://miro.medium.com/max/4000/1*pJm1NTQ-DCJvsLvo03idZQ.png" width="70" title="TensorFlow"> <img src="https://miro.medium.com/max/1200/0*-PbljY7yMfYDCqtt" width="140" title="PyTorch">
+
+Além dos conteúdos estudados no desafio atual.
