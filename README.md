@@ -1,5 +1,5 @@
 # 100daysofcode
-Repositório direcionado para os projetos do #100daysofcode
+Repositório direcionado para os projetos do #100daysofcode (1ª edição deste perfil)
 
 ## Etapas do desafio:
 - Início: 13 de julho
@@ -16,7 +16,7 @@ Repositório direcionado para os projetos do #100daysofcode
 - [ ] Criar projetos de Machine Learning com Python
 - [x] Treinar Python + mini-projetos
 - [ ] Aplicações em Visão Computacional
-- [ ] Aumentar o conhecimento na línguagem C++ alinhado aos estudos da faculdade
+- [x] Aumentar o conhecimento na línguagem C++ alinhado aos estudos da faculdade
 
 ## Tecnologias, linguagens e plataformas:
  <p align="left">
