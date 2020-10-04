@@ -100,7 +100,7 @@ Projetos e atividades utilizando C++ estão presentes no repositório de [Ativid
 | 58 |C++: Início dos estudos em Listas Dinâmicas Utilizando Structs|2h|
 | 59 |C++: Implementação de novas funções em Listas Dinâmicas|1h30|
 | 60 |C++: Estudo da biblioteca Vector + Exercício no URI|2h|
-| 61 |  |  |  |
+| 61 |Computer Vision: Algorítimo Canny + Detecção de contornos + Comportamento de visualização de imagens utilizando esquema HSV|2h|
 | 62 |  |  |  |
 | 63 |  |  |  |
 | 64 |  |  |  |
