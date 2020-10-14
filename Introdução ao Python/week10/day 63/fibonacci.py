@@ -12,8 +12,7 @@ def fibonacci(num: int):
             lista.append(valor)
     lista[0] = 0
     for elementos in lista:
-        string = f'{elementos}'
-        print(string.removesuffix(' '), end=' ')
+        print(elementos, end=' ')
 
 def executa():
     valor = int(input('Quantidade de elementos da Sequencia de Fibonacci que deseja: '))
