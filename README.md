@@ -1,6 +1,16 @@
 # 100daysofcode (Interrompido - Dia 61) (Desafio não concluído).
 Repositório direcionado para os projetos do #100daysofcode (1ª edição deste perfil)
 
+
+## ⚠️⚠️⚠️ AVISO ⚠️⚠️⚠️ :
+Esse repositório não será continuado. Parei o desafio no dia 61. A correria da faculdade somada com o cenário atual fez com que eu não conseguisse dar conta.
+Essa foi a primeira edição do desafio aqui. Digo 'primeira edição' pelo fato de querer fazer mais vezes, com novas tecnologias + algumas pendentes dessa edição.
+Independente de tudo, estou orgulhoso de ter passado dos 50% do desafio. Mesmo com o tempo, chegar ao dia 61 já me deixou muito feliz.
+O objetivo do 100daysofcode é estudar e evoluir cada vez mais. Por isso não pretendo parar!
+
+Até a próxima edição do desafio!!
+_______________________________________________________________________________________________________________________________________________________________
+
 ## Etapas do desafio:
 - Início: 13 de julho
 - 25%: 6 de agosto
