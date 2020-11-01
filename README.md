@@ -1,5 +1,5 @@
 # 100daysofcode (Interrompido - Dia 61) (Desafio não concluído).
-Repositório direcionado para os projetos do #100daysofcode (1ª edição deste perfil)
+Repositório direcionado para os projetos do #100daysofcode (1ª edição)
 
 
 ## ⚠️⚠️⚠️ AVISO ⚠️⚠️⚠️ :
